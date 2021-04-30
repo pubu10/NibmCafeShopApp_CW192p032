@@ -7,15 +7,15 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "12C0C69E-7D5D-46A0-962E-FE451CB75A8D"
+            uuid = "0479CD47-7A1E-45D4-952F-8EB53050FA5B"
             shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "NibmCafeShopApp_192p032/CategoryController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "65"
-            endingLineNumber = "65"
+            startingLineNumber = "24"
+            endingLineNumber = "24"
             landmarkName = "btnAddCategoryClick(_:)"
             landmarkType = "7">
          </BreakpointContent>

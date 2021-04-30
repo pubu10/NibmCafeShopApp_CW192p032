@@ -21,66 +21,20 @@ class CategoryController: UIViewController {
     
     @IBAction func btnAddCategoryClick(_ sender: UIButton) {
         
-        var max : String = ""
-        var count : Bool = false;
-        let Categorys = db?.collection("Categorys")
-               Categorys!
-                .order(by: "CategoryID", descending: true).limit(to: 1).addSnapshotListener { [self] (snapshot, err) in
-                    if err != nil {
-                        print(err?.localizedDescription ?? "")
-                    }else{
-                        if snapshot?.isEmpty != true {
-                            for document in snapshot!.documents{
-                               
-                                let x : Int = document.get("CategoryID") as! Int
-                                max = String(x)
-                                
-                                if(!count)
-                                {
-                                    let next = (max as NSString).integerValue
-                                    self.db?.collection("Categorys").document(String((next+1))).setData(self.GetDictionaryRepresentation(CategoryID : ((next+1)),Name: CategoryName.text!)) { err in
-                                       
-                                            print(next+1);
-                                        count = true;
-                                        
-                                            return
-                                        
-                                    }
-                                    return
-                                    
-                                }
-                                else{
-                                    
-                                    return
-                                }
-                                
-                            }
-                        }
-                        
-                    }
-                  
-                }
-        
-        
-        
-        
-        
        
+        self.db?.collection("Categorys").document("1").setData(self.GetDictionaryRepresentation(CategoryID : (1),Name: CategoryName.text!)) { err in
             
+            let alert = UIAlertController(title: "Alert", message: "Successfully Added", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+        
     }
-    
-   
-       
-      
-    
-    
-    
-//CategoryID :Int,Name : String) -> [String: Any] //CategoryID: 1,Name: "test") // CategoryID :Int
     
     
     func GetDictionaryRepresentation(CategoryID : Int,Name : String )-> [ String : Any ]  {
         return [
-            "CategoryID" : CategoryID,
+            "CategoryID" : 1,
             "Name" : Name
             
         ]
