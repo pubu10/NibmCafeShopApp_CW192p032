@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,7 +13,11 @@
 		10DEE061263BB3C90006228B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DEE05F263BB3C90006228B /* Main.storyboard */; };
 		10DEE063263BB3CA0006228B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10DEE062263BB3CA0006228B /* Assets.xcassets */; };
 		10DEE066263BB3CA0006228B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10DEE064263BB3CA0006228B /* LaunchScreen.storyboard */; };
-		A1235DE78AF4A5329D618BED /* Pods_NibmCafeShopApp_192p032.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F0A03C7A23EE858C58CDB0 /* Pods_NibmCafeShopApp_192p032.framework */; };
+		10E75845263BD15B006C0BBB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E75844263BD15B006C0BBB /* LoginViewController.swift */; };
+		10E7584A263BD58C006C0BBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10E75849263BD58C006C0BBB /* GoogleService-Info.plist */; };
+		10E75895263C0617006C0BBB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E75894263C0617006C0BBB /* CreateAccountViewController.swift */; };
+		10E75898263C09D0006C0BBB /* ValidationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E75897263C09D0006C0BBB /* ValidationClass.swift */; };
+		7E80A4615E7A7A9059BE8277 /* libPods-NibmCafeShopApp_192p032.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6FDAC4B26EBB26383805FF /* libPods-NibmCafeShopApp_192p032.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,9 +29,13 @@
 		10DEE062263BB3CA0006228B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10DEE065263BB3CA0006228B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10DEE067263BB3CA0006228B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		41F0A03C7A23EE858C58CDB0 /* Pods_NibmCafeShopApp_192p032.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NibmCafeShopApp_192p032.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10E75844263BD15B006C0BBB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		10E75849263BD58C006C0BBB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		10E75894263C0617006C0BBB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		10E75897263C09D0006C0BBB /* ValidationClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationClass.swift; sourceTree = "<group>"; };
 		9E2B6AC43900876E34E63F60 /* Pods-NibmCafeShopApp_192p032.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmCafeShopApp_192p032.debug.xcconfig"; path = "Target Support Files/Pods-NibmCafeShopApp_192p032/Pods-NibmCafeShopApp_192p032.debug.xcconfig"; sourceTree = "<group>"; };
 		DAB87C954303B877EEA67787 /* Pods-NibmCafeShopApp_192p032.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmCafeShopApp_192p032.release.xcconfig"; path = "Target Support Files/Pods-NibmCafeShopApp_192p032/Pods-NibmCafeShopApp_192p032.release.xcconfig"; sourceTree = "<group>"; };
+		EC6FDAC4B26EBB26383805FF /* libPods-NibmCafeShopApp_192p032.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NibmCafeShopApp_192p032.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1235DE78AF4A5329D618BED /* Pods_NibmCafeShopApp_192p032.framework in Frameworks */,
+				7E80A4615E7A7A9059BE8277 /* libPods-NibmCafeShopApp_192p032.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +71,7 @@
 		10DEE058263BB3C90006228B /* NibmCafeShopApp_192p032 */ = {
 			isa = PBXGroup;
 			children = (
+				10E75849263BD58C006C0BBB /* GoogleService-Info.plist */,
 				10DEE059263BB3C90006228B /* AppDelegate.swift */,
 				10DEE05B263BB3C90006228B /* SceneDelegate.swift */,
 				10DEE05D263BB3C90006228B /* ViewController.swift */,
@@ -70,6 +79,9 @@
 				10DEE062263BB3CA0006228B /* Assets.xcassets */,
 				10DEE064263BB3CA0006228B /* LaunchScreen.storyboard */,
 				10DEE067263BB3CA0006228B /* Info.plist */,
+				10E75844263BD15B006C0BBB /* LoginViewController.swift */,
+				10E75894263C0617006C0BBB /* CreateAccountViewController.swift */,
+				10E75897263C09D0006C0BBB /* ValidationClass.swift */,
 			);
 			path = NibmCafeShopApp_192p032;
 			sourceTree = "<group>";
@@ -77,7 +89,7 @@
 		BCA8B0E955A8BBC68655E52C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				41F0A03C7A23EE858C58CDB0 /* Pods_NibmCafeShopApp_192p032.framework */,
+				EC6FDAC4B26EBB26383805FF /* libPods-NibmCafeShopApp_192p032.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -88,7 +100,6 @@
 				9E2B6AC43900876E34E63F60 /* Pods-NibmCafeShopApp_192p032.debug.xcconfig */,
 				DAB87C954303B877EEA67787 /* Pods-NibmCafeShopApp_192p032.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -103,6 +114,7 @@
 				10DEE052263BB3C90006228B /* Sources */,
 				10DEE053263BB3C90006228B /* Frameworks */,
 				10DEE054263BB3C90006228B /* Resources */,
+				72E4652D0C53A2871D89C412 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -151,6 +163,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				10DEE066263BB3CA0006228B /* LaunchScreen.storyboard in Resources */,
+				10E7584A263BD58C006C0BBB /* GoogleService-Info.plist in Resources */,
 				10DEE063263BB3CA0006228B /* Assets.xcassets in Resources */,
 				10DEE061263BB3C90006228B /* Main.storyboard in Resources */,
 			);
@@ -159,6 +172,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		72E4652D0C53A2871D89C412 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NibmCafeShopApp_192p032/Pods-NibmCafeShopApp_192p032-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NibmCafeShopApp_192p032/Pods-NibmCafeShopApp_192p032-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NibmCafeShopApp_192p032/Pods-NibmCafeShopApp_192p032-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9264575C0A60AD8EDEB7DB7D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -188,9 +218,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10E75895263C0617006C0BBB /* CreateAccountViewController.swift in Sources */,
+				10E75845263BD15B006C0BBB /* LoginViewController.swift in Sources */,
 				10DEE05E263BB3C90006228B /* ViewController.swift in Sources */,
 				10DEE05A263BB3C90006228B /* AppDelegate.swift in Sources */,
 				10DEE05C263BB3C90006228B /* SceneDelegate.swift in Sources */,
+				10E75898263C09D0006C0BBB /* ValidationClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
