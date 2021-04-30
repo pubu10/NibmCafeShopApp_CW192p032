@@ -58,9 +58,10 @@ class LoginViewController: UIViewController {
             
             if(status)
             {
-                let alert = UIAlertController(title: "Alert", message: msg, preferredStyle: UIAlertController.Style.alert)
-                alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
-                self.present(alert, animated: true, completion: nil)
+                let vc = (self.storyboard?.instantiateViewController(identifier: "tbBarController"))! as UITabBarController
+               self.present(vc,animated: true,completion: nil)
+                
+                
             }
             else
             {
@@ -70,10 +71,13 @@ class LoginViewController: UIViewController {
                 
                 
             }
-            
+        }
     }
     
+    @IBAction func btnResetPasswordClick(_ sender: Any) {
+        let vc = (self.storyboard?.instantiateViewController(identifier: "ResetPassword"))! as ResetPassword
+       self.present(vc,animated: true,completion: nil)
+        
     }
-
 
 }

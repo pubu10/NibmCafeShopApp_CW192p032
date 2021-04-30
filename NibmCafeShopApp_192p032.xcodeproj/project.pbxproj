@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1031DA5E263C41EC00E817AF /* PreviewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031DA5D263C41EC00E817AF /* PreviewController.swift */; };
+		1031DA61263C429100E817AF /* CategoryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031DA60263C429100E817AF /* CategoryController.swift */; };
+		1031DA64263C42E100E817AF /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1031DA63263C42E100E817AF /* MenuController.swift */; };
+		10518CC9263C378F0076FA3D /* StoreController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10518CC8263C378F0076FA3D /* StoreController.swift */; };
+		10BA9FC2263C82DE005A1FA9 /* OrderController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BA9FC1263C82DE005A1FA9 /* OrderController.swift */; };
 		10DEE05A263BB3C90006228B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEE059263BB3C90006228B /* AppDelegate.swift */; };
 		10DEE05C263BB3C90006228B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEE05B263BB3C90006228B /* SceneDelegate.swift */; };
 		10DEE05E263BB3C90006228B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10DEE05D263BB3C90006228B /* ViewController.swift */; };
@@ -17,10 +22,16 @@
 		10E7584A263BD58C006C0BBB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 10E75849263BD58C006C0BBB /* GoogleService-Info.plist */; };
 		10E75895263C0617006C0BBB /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E75894263C0617006C0BBB /* CreateAccountViewController.swift */; };
 		10E75898263C09D0006C0BBB /* ValidationClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E75897263C09D0006C0BBB /* ValidationClass.swift */; };
+		10E7589B263C14CE006C0BBB /* ResetPassword.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10E7589A263C14CE006C0BBB /* ResetPassword.swift */; };
 		7E80A4615E7A7A9059BE8277 /* libPods-NibmCafeShopApp_192p032.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC6FDAC4B26EBB26383805FF /* libPods-NibmCafeShopApp_192p032.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1031DA5D263C41EC00E817AF /* PreviewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewController.swift; sourceTree = "<group>"; };
+		1031DA60263C429100E817AF /* CategoryController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryController.swift; sourceTree = "<group>"; };
+		1031DA63263C42E100E817AF /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		10518CC8263C378F0076FA3D /* StoreController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreController.swift; sourceTree = "<group>"; };
+		10BA9FC1263C82DE005A1FA9 /* OrderController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderController.swift; sourceTree = "<group>"; };
 		10DEE056263BB3C90006228B /* NibmCafeShopApp_192p032.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NibmCafeShopApp_192p032.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10DEE059263BB3C90006228B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10DEE05B263BB3C90006228B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,6 +44,7 @@
 		10E75849263BD58C006C0BBB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		10E75894263C0617006C0BBB /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
 		10E75897263C09D0006C0BBB /* ValidationClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValidationClass.swift; sourceTree = "<group>"; };
+		10E7589A263C14CE006C0BBB /* ResetPassword.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResetPassword.swift; sourceTree = "<group>"; };
 		9E2B6AC43900876E34E63F60 /* Pods-NibmCafeShopApp_192p032.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmCafeShopApp_192p032.debug.xcconfig"; path = "Target Support Files/Pods-NibmCafeShopApp_192p032/Pods-NibmCafeShopApp_192p032.debug.xcconfig"; sourceTree = "<group>"; };
 		DAB87C954303B877EEA67787 /* Pods-NibmCafeShopApp_192p032.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NibmCafeShopApp_192p032.release.xcconfig"; path = "Target Support Files/Pods-NibmCafeShopApp_192p032/Pods-NibmCafeShopApp_192p032.release.xcconfig"; sourceTree = "<group>"; };
 		EC6FDAC4B26EBB26383805FF /* libPods-NibmCafeShopApp_192p032.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-NibmCafeShopApp_192p032.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -82,6 +94,12 @@
 				10E75844263BD15B006C0BBB /* LoginViewController.swift */,
 				10E75894263C0617006C0BBB /* CreateAccountViewController.swift */,
 				10E75897263C09D0006C0BBB /* ValidationClass.swift */,
+				10E7589A263C14CE006C0BBB /* ResetPassword.swift */,
+				10518CC8263C378F0076FA3D /* StoreController.swift */,
+				1031DA5D263C41EC00E817AF /* PreviewController.swift */,
+				1031DA60263C429100E817AF /* CategoryController.swift */,
+				1031DA63263C42E100E817AF /* MenuController.swift */,
+				10BA9FC1263C82DE005A1FA9 /* OrderController.swift */,
 			);
 			path = NibmCafeShopApp_192p032;
 			sourceTree = "<group>";
@@ -218,8 +236,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10BA9FC2263C82DE005A1FA9 /* OrderController.swift in Sources */,
+				1031DA5E263C41EC00E817AF /* PreviewController.swift in Sources */,
+				1031DA61263C429100E817AF /* CategoryController.swift in Sources */,
 				10E75895263C0617006C0BBB /* CreateAccountViewController.swift in Sources */,
+				10518CC9263C378F0076FA3D /* StoreController.swift in Sources */,
 				10E75845263BD15B006C0BBB /* LoginViewController.swift in Sources */,
+				1031DA64263C42E100E817AF /* MenuController.swift in Sources */,
+				10E7589B263C14CE006C0BBB /* ResetPassword.swift in Sources */,
 				10DEE05E263BB3C90006228B /* ViewController.swift in Sources */,
 				10DEE05A263BB3C90006228B /* AppDelegate.swift in Sources */,
 				10DEE05C263BB3C90006228B /* SceneDelegate.swift in Sources */,
