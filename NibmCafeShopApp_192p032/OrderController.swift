@@ -19,16 +19,7 @@ class OrderController: UIViewController {
         super.viewDidLoad()
 
         
-        let foodCell = tblView.dequeueReusableCell(withIdentifier: "FoodCell", for: indexPath) as! FoodTableViewCell
-                  foodCell.foodImageCell.image = UIImage(named: self.foods[indexPath.row].foodImage ?? "")
-                  foodCell.lblFoodName.text = self.foods[indexPath.row].foodName
-                  foodCell.lblFoodDesc.text = self.foods[indexPath.row].foodDesc
-                  foodCell.lblFoodPrice.text = "Rs. \(self.foods[indexPath.row].foodPrice ?? "")"
-                  foodCell.lblFoodOffer.text = "\(self.foods[indexPath.row].foodOffer ?? "")%"
-                  if(foodCell.lblFoodOffer.text == ("0%"))
-                  {
-                      foodCell.lblFoodOffer.isHidden = true;
-                  }
+       
         
         
         

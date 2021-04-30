@@ -7,6 +7,7 @@ target 'NibmCafeShopApp_192p032' do
   pod 'Firebase/Auth'
   pod 'Firebase/Firestore'
   pod ‘FirebaseCore’
+  pod 'iOSDropDown'
   # Pods for NibmCafeShopApp_192p032
 
 end

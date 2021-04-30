@@ -6,15 +6,30 @@
 //
 
 import UIKit
+import iOSDropDown
+
 
 class MenuController: UIViewController {
 
+    
+    
+    
+    @IBOutlet weak var dropDown : DropDown!
+
+    // The list of array to display. Can be changed dynamically
+   
+    @IBOutlet weak var lbl: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+       
+        
+        
+        
     }
     
+   
 
   
 
